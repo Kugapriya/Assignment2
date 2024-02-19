@@ -19,7 +19,7 @@ public class EmployeeMain
 
             TypeReference<List<Employee1>> typeReference = new TypeReference<List<Employee1>>() {
             };
-            List<Employee1> employeelist = mapper.readValue(inputStream, typeReference);
+            List<Employee1> employeelist = mapper.readValue(inputStream,typeReference);
             inputStream.close();
             for (Employee1 a : employeelist) {
                 if ("Quality Engineer".equals(a.getPosition()))
