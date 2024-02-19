@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<company>
     <employees>
         <employee>
             <id>1</id>
@@ -92,5 +91,3 @@
             <department>Engineering</department>
         </employee>
     </employees>
-
-

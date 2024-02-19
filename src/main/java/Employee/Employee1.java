@@ -1,3 +1,4 @@
+
 package Employee;
 
 import java.sql.Connection;
@@ -30,19 +31,19 @@ public class Employee1
     }
 
     public String getPosition() {
-        return name;
+        return position;
     }
 
     public void setPosition(String position) {
-        this.name = name;
+        this.position = position;
     }
 
     public String getDepartment() {
-        return name;
+        return department;
     }
 
     public void setDepartment(String department) {
-        this.name = name;
+        this.department = department;
     }
     public void Database()
     {
